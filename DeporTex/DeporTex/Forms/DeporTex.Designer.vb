@@ -26,8 +26,6 @@ Partial Class DeporTex
         Me.ArticulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -58,7 +56,7 @@ Partial Class DeporTex
         '
         'ArticulosToolStripMenuItem
         '
-        Me.ArticulosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem, Me.RegistrarToolStripMenuItem, Me.ModificarToolStripMenuItem, Me.EliminarToolStripMenuItem})
+        Me.ArticulosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem, Me.RegistrarToolStripMenuItem})
         Me.ArticulosToolStripMenuItem.Name = "ArticulosToolStripMenuItem"
         Me.ArticulosToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.ArticulosToolStripMenuItem.Text = "Articulos"
@@ -66,26 +64,14 @@ Partial Class DeporTex
         'ConsultarToolStripMenuItem
         '
         Me.ConsultarToolStripMenuItem.Name = "ConsultarToolStripMenuItem"
-        Me.ConsultarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ConsultarToolStripMenuItem.Text = "Consultar"
+        Me.ConsultarToolStripMenuItem.Size = New System.Drawing.Size(181, 22)
+        Me.ConsultarToolStripMenuItem.Text = "Consultar o Eliminar"
         '
         'RegistrarToolStripMenuItem
         '
         Me.RegistrarToolStripMenuItem.Name = "RegistrarToolStripMenuItem"
-        Me.RegistrarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.RegistrarToolStripMenuItem.Text = "Registrar"
-        '
-        'ModificarToolStripMenuItem
-        '
-        Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
-        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ModificarToolStripMenuItem.Text = "Modificar"
-        '
-        'EliminarToolStripMenuItem
-        '
-        Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
-        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.EliminarToolStripMenuItem.Text = "Eliminar"
+        Me.RegistrarToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.RegistrarToolStripMenuItem.Text = "Registrar o Modificar"
         '
         'ClientesToolStripMenuItem
         '
@@ -159,25 +145,25 @@ Partial Class DeporTex
         'ConsultarToolStripMenuItem3
         '
         Me.ConsultarToolStripMenuItem3.Name = "ConsultarToolStripMenuItem3"
-        Me.ConsultarToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.ConsultarToolStripMenuItem3.Size = New System.Drawing.Size(125, 22)
         Me.ConsultarToolStripMenuItem3.Text = "Consultar"
         '
         'RegistrarToolStripMenuItem3
         '
         Me.RegistrarToolStripMenuItem3.Name = "RegistrarToolStripMenuItem3"
-        Me.RegistrarToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.RegistrarToolStripMenuItem3.Size = New System.Drawing.Size(125, 22)
         Me.RegistrarToolStripMenuItem3.Text = "Registrar"
         '
         'ModificarToolStripMenuItem3
         '
         Me.ModificarToolStripMenuItem3.Name = "ModificarToolStripMenuItem3"
-        Me.ModificarToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.ModificarToolStripMenuItem3.Size = New System.Drawing.Size(125, 22)
         Me.ModificarToolStripMenuItem3.Text = "Modificar"
         '
         'EliminarToolStripMenuItem3
         '
         Me.EliminarToolStripMenuItem3.Name = "EliminarToolStripMenuItem3"
-        Me.EliminarToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.EliminarToolStripMenuItem3.Size = New System.Drawing.Size(125, 22)
         Me.EliminarToolStripMenuItem3.Text = "Eliminar"
         '
         'lbl_titulo
@@ -216,8 +202,6 @@ Partial Class DeporTex
     Friend WithEvents ArticulosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ConsultarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RegistrarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ModificarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EliminarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ClientesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ConsultarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RegistrarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem

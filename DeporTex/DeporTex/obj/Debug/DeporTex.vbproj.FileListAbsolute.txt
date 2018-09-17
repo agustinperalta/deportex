@@ -9,3 +9,5 @@ C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporT
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.xml
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.pdb
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbprojAssemblyReference.cache
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreCompileInputs.cache
