@@ -15,7 +15,7 @@
     End Sub
     Private Sub cargar_grilla()
         Dim sql As String
-        sql = "SELECT cod_articulo As 'Codigo Articulos', id_marca As 'Marca', nombre As 'Nombre', precio As 'Precio', proveedor As 'Proveedor' FROM Articulos"
+        sql = "SELECT cod_articulo As 'Codigo Articulos', M.nombre As 'Marca', A.nombre As 'Nombre', precio As 'Precio', P.razonSocial As 'Proveedor' FROM Articulos A INNER JOIN Marcas M ON (A.id_marca = M.id_marca) INNER JOIN Proveedores P ON (A.proveedor=P.cuil_proveedor)"
         Me.dgv_consultar_articulo.DataSource = Me.conex.leo_tabla(sql)
     End Sub
 

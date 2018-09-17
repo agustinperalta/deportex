@@ -4,6 +4,6 @@
     End Sub
 
     Private Sub RegistrarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarToolStripMenuItem.Click
-
+        Articulo_Registrar_Modificar.ShowDialog()
     End Sub
 End Class
