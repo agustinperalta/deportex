@@ -25,6 +25,7 @@ Partial Class Articulo_Consultar_Eliminar
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.txt_busqueda = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.cmd_buscar = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -57,12 +58,23 @@ Partial Class Articulo_Consultar_Eliminar
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Buscar"
         '
+        'cmd_buscar
+        '
+        Me.cmd_buscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmd_buscar.Location = New System.Drawing.Point(285, 51)
+        Me.cmd_buscar.Name = "cmd_buscar"
+        Me.cmd_buscar.Size = New System.Drawing.Size(75, 23)
+        Me.cmd_buscar.TabIndex = 3
+        Me.cmd_buscar.Text = "Buscar"
+        Me.cmd_buscar.UseVisualStyleBackColor = True
+        '
         'Articulo_Consultar_Eliminar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(684, 461)
+        Me.Controls.Add(Me.cmd_buscar)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txt_busqueda)
         Me.Controls.Add(Me.DataGridView1)
@@ -77,4 +89,5 @@ Partial Class Articulo_Consultar_Eliminar
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents txt_busqueda As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents cmd_buscar As Button
 End Class
