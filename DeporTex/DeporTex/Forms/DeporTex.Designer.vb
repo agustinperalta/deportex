@@ -45,12 +45,12 @@ Partial Class DeporTex
         'lbl_titulo
         '
         Me.lbl_titulo.AutoSize = True
-        Me.lbl_titulo.Font = New System.Drawing.Font("BankGothic Md BT", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_titulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_titulo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.lbl_titulo.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.lbl_titulo.Location = New System.Drawing.Point(515, 100)
         Me.lbl_titulo.Name = "lbl_titulo"
-        Me.lbl_titulo.Size = New System.Drawing.Size(378, 67)
+        Me.lbl_titulo.Size = New System.Drawing.Size(322, 73)
         Me.lbl_titulo.TabIndex = 1
         Me.lbl_titulo.Text = "DeporTex"
         Me.lbl_titulo.TextAlign = System.Drawing.ContentAlignment.TopCenter
