@@ -14,3 +14,5 @@ C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporT
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Registrar_Modificar.resources
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Consultar_Eliminar.resources
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Registra_Modificar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Consultar_eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Registrar_Modificar.resources

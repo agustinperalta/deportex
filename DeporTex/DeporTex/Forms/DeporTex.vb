@@ -14,4 +14,12 @@
     Private Sub RegistrarToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles RegistrarToolStripMenuItem3.Click
         Marca_Registra_Modificar.ShowDialog()
     End Sub
+
+    Private Sub ConsultarToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ConsultarToolStripMenuItem2.Click
+        Proveedor_Consultar_eliminar.ShowDialog()
+    End Sub
+
+    Private Sub RegistrarToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles RegistrarToolStripMenuItem2.Click
+        Proveedor_Registrar_Modificar.ShowDialog()
+    End Sub
 End Class
