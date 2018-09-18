@@ -16,17 +16,13 @@ Public Class Tratamientos_Especiales
         Next
     End Sub
 
-    Public Sub cargar_combobox(ByVal combo As ComboBox, ByVal displaymember As String, ByVal valuemember As String)
-        Dim DA As New SqlDataAdapter()
-        Dim DT As New DataTable
-        Try
-            DA = New SqlDataAdapter("SELECT nombre FROM Marcas", _cadena_conexion)
-            DA.Fill(DT)
-            combo.DataSource = DT
-            combo.DisplayMember = displaymember
-            combo.ValueMember = valuemember
-        Catch ex As Exception
-
-        End Try
+    Public Sub cargar_combo(ByRef _combo As ComboBox, ByVal consulta As String)
+        Dim _BD As New Conexion
+        Dim datatable As New DataTable
+        Dim sqlstring As String = consulta
+        datatable = _BD.leo_tabla(sqlstring)
+        _combo.DataSource = datatable
+        _combo.DisplayMember = datatable.Columns(1).ColumnName
+        _combo.ValueMember = datatable.Columns(0).ColumnName
     End Sub
 End Class

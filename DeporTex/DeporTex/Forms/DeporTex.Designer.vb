@@ -22,15 +22,13 @@ Partial Class DeporTex
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.lbl_titulo = New System.Windows.Forms.Label()
         Me.ArticulosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProveedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,20 +37,23 @@ Partial Class DeporTex
         Me.MarcaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.lbl_titulo = New System.Windows.Forms.Label()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'MenuStrip1
+        'lbl_titulo
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArticulosToolStripMenuItem, Me.ClientesToolStripMenuItem, Me.ProveedoresToolStripMenuItem, Me.MarcaToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(758, 24)
-        Me.MenuStrip1.TabIndex = 0
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.lbl_titulo.AutoSize = True
+        Me.lbl_titulo.Font = New System.Drawing.Font("BankGothic Md BT", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_titulo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbl_titulo.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lbl_titulo.Location = New System.Drawing.Point(515, 100)
+        Me.lbl_titulo.Name = "lbl_titulo"
+        Me.lbl_titulo.Size = New System.Drawing.Size(378, 67)
+        Me.lbl_titulo.TabIndex = 1
+        Me.lbl_titulo.Text = "DeporTex"
+        Me.lbl_titulo.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'ArticulosToolStripMenuItem
         '
@@ -64,7 +65,7 @@ Partial Class DeporTex
         'ConsultarToolStripMenuItem
         '
         Me.ConsultarToolStripMenuItem.Name = "ConsultarToolStripMenuItem"
-        Me.ConsultarToolStripMenuItem.Size = New System.Drawing.Size(181, 22)
+        Me.ConsultarToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
         Me.ConsultarToolStripMenuItem.Text = "Consultar o Eliminar"
         '
         'RegistrarToolStripMenuItem
@@ -75,7 +76,7 @@ Partial Class DeporTex
         '
         'ClientesToolStripMenuItem
         '
-        Me.ClientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem1, Me.RegistrarToolStripMenuItem1, Me.ModificarToolStripMenuItem1, Me.EliminarToolStripMenuItem1})
+        Me.ClientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem1, Me.RegistrarToolStripMenuItem1})
         Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
         Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
         Me.ClientesToolStripMenuItem.Text = "Clientes"
@@ -83,26 +84,14 @@ Partial Class DeporTex
         'ConsultarToolStripMenuItem1
         '
         Me.ConsultarToolStripMenuItem1.Name = "ConsultarToolStripMenuItem1"
-        Me.ConsultarToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
-        Me.ConsultarToolStripMenuItem1.Text = "Consultar"
+        Me.ConsultarToolStripMenuItem1.Size = New System.Drawing.Size(184, 22)
+        Me.ConsultarToolStripMenuItem1.Text = "Consultar o Eliminar"
         '
         'RegistrarToolStripMenuItem1
         '
         Me.RegistrarToolStripMenuItem1.Name = "RegistrarToolStripMenuItem1"
-        Me.RegistrarToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
-        Me.RegistrarToolStripMenuItem1.Text = "Registrar"
-        '
-        'ModificarToolStripMenuItem1
-        '
-        Me.ModificarToolStripMenuItem1.Name = "ModificarToolStripMenuItem1"
-        Me.ModificarToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
-        Me.ModificarToolStripMenuItem1.Text = "Modificar"
-        '
-        'EliminarToolStripMenuItem1
-        '
-        Me.EliminarToolStripMenuItem1.Name = "EliminarToolStripMenuItem1"
-        Me.EliminarToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
-        Me.EliminarToolStripMenuItem1.Text = "Eliminar"
+        Me.RegistrarToolStripMenuItem1.Size = New System.Drawing.Size(184, 22)
+        Me.RegistrarToolStripMenuItem1.Text = "Registrar o Modificar"
         '
         'ProveedoresToolStripMenuItem
         '
@@ -137,7 +126,7 @@ Partial Class DeporTex
         '
         'MarcaToolStripMenuItem
         '
-        Me.MarcaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem3, Me.RegistrarToolStripMenuItem3, Me.ModificarToolStripMenuItem3, Me.EliminarToolStripMenuItem3})
+        Me.MarcaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem3, Me.RegistrarToolStripMenuItem3})
         Me.MarcaToolStripMenuItem.Name = "MarcaToolStripMenuItem"
         Me.MarcaToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
         Me.MarcaToolStripMenuItem.Text = "Marca"
@@ -145,46 +134,40 @@ Partial Class DeporTex
         'ConsultarToolStripMenuItem3
         '
         Me.ConsultarToolStripMenuItem3.Name = "ConsultarToolStripMenuItem3"
-        Me.ConsultarToolStripMenuItem3.Size = New System.Drawing.Size(125, 22)
-        Me.ConsultarToolStripMenuItem3.Text = "Consultar"
+        Me.ConsultarToolStripMenuItem3.Size = New System.Drawing.Size(184, 22)
+        Me.ConsultarToolStripMenuItem3.Text = "Consultar o Eliminar"
         '
         'RegistrarToolStripMenuItem3
         '
         Me.RegistrarToolStripMenuItem3.Name = "RegistrarToolStripMenuItem3"
-        Me.RegistrarToolStripMenuItem3.Size = New System.Drawing.Size(125, 22)
-        Me.RegistrarToolStripMenuItem3.Text = "Registrar"
+        Me.RegistrarToolStripMenuItem3.Size = New System.Drawing.Size(184, 22)
+        Me.RegistrarToolStripMenuItem3.Text = "Registrar o Modificar"
         '
-        'ModificarToolStripMenuItem3
+        'MenuStrip1
         '
-        Me.ModificarToolStripMenuItem3.Name = "ModificarToolStripMenuItem3"
-        Me.ModificarToolStripMenuItem3.Size = New System.Drawing.Size(125, 22)
-        Me.ModificarToolStripMenuItem3.Text = "Modificar"
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArticulosToolStripMenuItem, Me.ClientesToolStripMenuItem, Me.ProveedoresToolStripMenuItem, Me.MarcaToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(959, 24)
+        Me.MenuStrip1.TabIndex = 0
+        Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'EliminarToolStripMenuItem3
+        'GroupBox1
         '
-        Me.EliminarToolStripMenuItem3.Name = "EliminarToolStripMenuItem3"
-        Me.EliminarToolStripMenuItem3.Size = New System.Drawing.Size(125, 22)
-        Me.EliminarToolStripMenuItem3.Text = "Eliminar"
-        '
-        'lbl_titulo
-        '
-        Me.lbl_titulo.AutoSize = True
-        Me.lbl_titulo.Font = New System.Drawing.Font("BankGothic Md BT", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_titulo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.lbl_titulo.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.lbl_titulo.Location = New System.Drawing.Point(515, 100)
-        Me.lbl_titulo.Name = "lbl_titulo"
-        Me.lbl_titulo.Size = New System.Drawing.Size(378, 67)
-        Me.lbl_titulo.TabIndex = 1
-        Me.lbl_titulo.Text = "DeporTex"
-        Me.lbl_titulo.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.GroupBox1.Location = New System.Drawing.Point(113, 209)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(337, 201)
+        Me.GroupBox1.TabIndex = 2
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Procesos"
         '
         'DeporTex
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(758, 402)
+        Me.ClientSize = New System.Drawing.Size(959, 449)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lbl_titulo)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -198,25 +181,21 @@ Partial Class DeporTex
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
-    Friend WithEvents ArticulosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ConsultarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents RegistrarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ClientesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ConsultarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents RegistrarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ModificarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EliminarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ProveedoresToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ConsultarToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents RegistrarToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ModificarToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EliminarToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents MarcaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ConsultarToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents RegistrarToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ModificarToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EliminarToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents lbl_titulo As System.Windows.Forms.Label
-
+    Friend WithEvents ArticulosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RegistrarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ClientesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents RegistrarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ProveedoresToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultarToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents RegistrarToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents ModificarToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents EliminarToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents MarcaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultarToolStripMenuItem3 As ToolStripMenuItem
+    Friend WithEvents RegistrarToolStripMenuItem3 As ToolStripMenuItem
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents GroupBox1 As GroupBox
 End Class

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Articulo_Registrar_Modificar
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Articulo_Registrar_Modificar
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.txt_cod_articulo = New System.Windows.Forms.MaskedTextBox()
         Me.txt_nombre = New System.Windows.Forms.MaskedTextBox()
@@ -124,6 +124,7 @@ Partial Class Articulo_Registrar_Modificar
         '
         'dgv_registrar_eliminar
         '
+        Me.dgv_registrar_eliminar.AllowUserToAddRows = False
         Me.dgv_registrar_eliminar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgv_registrar_eliminar.Location = New System.Drawing.Point(368, 56)
         Me.dgv_registrar_eliminar.Name = "dgv_registrar_eliminar"
@@ -140,18 +141,18 @@ Partial Class Articulo_Registrar_Modificar
         'cmb_marca
         '
         Me.cmb_marca.FormattingEnabled = True
-        Me.cmb_marca.Location = New System.Drawing.Point(134, 93)
+        Me.cmb_marca.Location = New System.Drawing.Point(136, 96)
         Me.cmb_marca.Name = "cmb_marca"
-        Me.cmb_marca.Size = New System.Drawing.Size(185, 21)
+        Me.cmb_marca.Size = New System.Drawing.Size(183, 21)
         Me.cmb_marca.TabIndex = 4
         '
         'cmb_proveedor
         '
         Me.cmb_proveedor.FormattingEnabled = True
-        Me.cmb_proveedor.Location = New System.Drawing.Point(134, 239)
+        Me.cmb_proveedor.Location = New System.Drawing.Point(136, 239)
         Me.cmb_proveedor.Name = "cmb_proveedor"
-        Me.cmb_proveedor.Size = New System.Drawing.Size(185, 21)
-        Me.cmb_proveedor.TabIndex = 4
+        Me.cmb_proveedor.Size = New System.Drawing.Size(183, 21)
+        Me.cmb_proveedor.TabIndex = 5
         '
         'Articulo_Registrar_Modificar
         '

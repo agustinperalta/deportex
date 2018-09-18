@@ -1,13 +1,8 @@
 ﻿Public Class Articulo_Consultar_Eliminar
     Dim conex As New Conexion
+    Dim articulo As New Articulo
     Private Sub Articulo_Consultar_Eliminar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         cargar_grilla()
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgv_consultar_articulo.CellContentClick
-        Dim sql As String
-        sql = "DELETE FROM Articulos Where cod_articulo = '" & dgv_consultar_articulo.CurrentRow.Cells(0).Value & "'"
-        Me.conex.INS_MOD_BOR(Sql)
     End Sub
 
     Private Sub txt_busqueda_Enter(sender As Object, e As EventArgs) Handles txt_busqueda.Enter
@@ -30,7 +25,15 @@
         cargar_grilla()
     End Sub
 
-    Private Sub chk_borrar_CheckedChanged(sender As Object, e As EventArgs) Handles chk_borrar.CheckedChanged
-
+    Private Sub dgv_consultar_articulo_CellContentDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgv_consultar_articulo.CellContentDoubleClick
+        Dim cod_articulo As String = Me.dgv_consultar_articulo.CurrentRow.Cells(0).Value
+        If Me.chk_borrar.Checked = True Then
+            If MessageBox.Show("¿Está seguro que quiere borrar a " & Me.dgv_consultar_articulo.CurrentRow.Cells(0).Value & "?" _
+                               , "Importante", MessageBoxButtons.YesNo _
+                               , MessageBoxIcon.Question) = Windows.Forms.DialogResult.Yes Then
+                Me.articulo.borrar(cod_articulo)
+                cargar_grilla()
+            End If
+        End If
     End Sub
 End Class
