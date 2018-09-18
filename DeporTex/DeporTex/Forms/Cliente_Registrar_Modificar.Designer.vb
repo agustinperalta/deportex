@@ -51,10 +51,13 @@ Partial Class Cliente_Registrar_Modificar
         'dgv_registrar_eliminar
         '
         Me.dgv_registrar_eliminar.AllowUserToAddRows = False
+        Me.dgv_registrar_eliminar.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dgv_registrar_eliminar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv_registrar_eliminar.Location = New System.Drawing.Point(353, 46)
+        Me.dgv_registrar_eliminar.Location = New System.Drawing.Point(320, 42)
         Me.dgv_registrar_eliminar.Name = "dgv_registrar_eliminar"
-        Me.dgv_registrar_eliminar.Size = New System.Drawing.Size(565, 338)
+        Me.dgv_registrar_eliminar.Size = New System.Drawing.Size(1038, 338)
         Me.dgv_registrar_eliminar.TabIndex = 16
         '
         'cmd_grabar
@@ -250,17 +253,18 @@ Partial Class Cliente_Registrar_Modificar
         'txt_telefono
         '
         Me.txt_telefono.Location = New System.Drawing.Point(123, 404)
-        Me.txt_telefono.Mask = "000-000-0000"
+        Me.txt_telefono.Mask = "9999999999"
         Me.txt_telefono.Name = "txt_telefono"
         Me.txt_telefono.Size = New System.Drawing.Size(97, 20)
         Me.txt_telefono.TabIndex = 31
+        Me.txt_telefono.ValidatingType = GetType(Integer)
         '
         'Cliente_Registrar_Modificar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(932, 496)
+        Me.ClientSize = New System.Drawing.Size(1370, 496)
         Me.Controls.Add(Me.txt_telefono)
         Me.Controls.Add(Me.txt_nro_tarjeta)
         Me.Controls.Add(Me.Label10)
@@ -286,6 +290,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.Controls.Add(Me.txt_cuil_cliente)
         Me.Name = "Cliente_Registrar_Modificar"
         Me.Text = "Cliente_Registrar_Modificar"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.dgv_registrar_eliminar, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

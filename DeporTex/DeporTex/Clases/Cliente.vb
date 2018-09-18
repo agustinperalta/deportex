@@ -29,7 +29,6 @@
         sql &= ", '" & _email & "'"
         sql &= ", " & _nroTarjetaBeneficio
         sql &= ", " & _telefono & ")"
-        MsgBox(sql)
 
         Me._BD.INS_MOD_BOR(sql)
 

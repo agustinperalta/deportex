@@ -37,3 +37,5 @@ C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.pdb
 C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.xml
 C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Registrar_Modificar.resources
 >>>>>>> 47012688faff4b14ee09992e4659eb87029cf7be
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Registrar_Modificar.resources
