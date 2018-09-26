@@ -49,10 +49,12 @@ Partial Class DeporTex
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArticulosToolStripMenuItem, Me.ClientesToolStripMenuItem, Me.ProveedoresToolStripMenuItem, Me.MarcaToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(758, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1305, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -60,124 +62,124 @@ Partial Class DeporTex
         '
         Me.ArticulosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem, Me.RegistrarToolStripMenuItem, Me.ModificarToolStripMenuItem, Me.EliminarToolStripMenuItem})
         Me.ArticulosToolStripMenuItem.Name = "ArticulosToolStripMenuItem"
-        Me.ArticulosToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
+        Me.ArticulosToolStripMenuItem.Size = New System.Drawing.Size(79, 24)
         Me.ArticulosToolStripMenuItem.Text = "Articulos"
         '
         'ConsultarToolStripMenuItem
         '
         Me.ConsultarToolStripMenuItem.Name = "ConsultarToolStripMenuItem"
-        Me.ConsultarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ConsultarToolStripMenuItem.Size = New System.Drawing.Size(148, 26)
         Me.ConsultarToolStripMenuItem.Text = "Consultar"
         '
         'RegistrarToolStripMenuItem
         '
         Me.RegistrarToolStripMenuItem.Name = "RegistrarToolStripMenuItem"
-        Me.RegistrarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RegistrarToolStripMenuItem.Size = New System.Drawing.Size(148, 26)
         Me.RegistrarToolStripMenuItem.Text = "Registrar"
         '
         'ModificarToolStripMenuItem
         '
         Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
-        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(148, 26)
         Me.ModificarToolStripMenuItem.Text = "Modificar"
         '
         'EliminarToolStripMenuItem
         '
         Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
-        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(148, 26)
         Me.EliminarToolStripMenuItem.Text = "Eliminar"
         '
         'ClientesToolStripMenuItem
         '
         Me.ClientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem1, Me.RegistrarToolStripMenuItem1, Me.ModificarToolStripMenuItem1, Me.EliminarToolStripMenuItem1})
         Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
-        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
+        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(73, 24)
         Me.ClientesToolStripMenuItem.Text = "Clientes"
         '
         'ConsultarToolStripMenuItem1
         '
         Me.ConsultarToolStripMenuItem1.Name = "ConsultarToolStripMenuItem1"
-        Me.ConsultarToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
+        Me.ConsultarToolStripMenuItem1.Size = New System.Drawing.Size(148, 26)
         Me.ConsultarToolStripMenuItem1.Text = "Consultar"
         '
         'RegistrarToolStripMenuItem1
         '
         Me.RegistrarToolStripMenuItem1.Name = "RegistrarToolStripMenuItem1"
-        Me.RegistrarToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
+        Me.RegistrarToolStripMenuItem1.Size = New System.Drawing.Size(148, 26)
         Me.RegistrarToolStripMenuItem1.Text = "Registrar"
         '
         'ModificarToolStripMenuItem1
         '
         Me.ModificarToolStripMenuItem1.Name = "ModificarToolStripMenuItem1"
-        Me.ModificarToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
+        Me.ModificarToolStripMenuItem1.Size = New System.Drawing.Size(148, 26)
         Me.ModificarToolStripMenuItem1.Text = "Modificar"
         '
         'EliminarToolStripMenuItem1
         '
         Me.EliminarToolStripMenuItem1.Name = "EliminarToolStripMenuItem1"
-        Me.EliminarToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
+        Me.EliminarToolStripMenuItem1.Size = New System.Drawing.Size(148, 26)
         Me.EliminarToolStripMenuItem1.Text = "Eliminar"
         '
         'ProveedoresToolStripMenuItem
         '
         Me.ProveedoresToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem2, Me.RegistrarToolStripMenuItem2, Me.ModificarToolStripMenuItem2, Me.EliminarToolStripMenuItem2})
         Me.ProveedoresToolStripMenuItem.Name = "ProveedoresToolStripMenuItem"
-        Me.ProveedoresToolStripMenuItem.Size = New System.Drawing.Size(84, 20)
+        Me.ProveedoresToolStripMenuItem.Size = New System.Drawing.Size(103, 24)
         Me.ProveedoresToolStripMenuItem.Text = "Proveedores"
         '
         'ConsultarToolStripMenuItem2
         '
         Me.ConsultarToolStripMenuItem2.Name = "ConsultarToolStripMenuItem2"
-        Me.ConsultarToolStripMenuItem2.Size = New System.Drawing.Size(125, 22)
+        Me.ConsultarToolStripMenuItem2.Size = New System.Drawing.Size(148, 26)
         Me.ConsultarToolStripMenuItem2.Text = "Consultar"
         '
         'RegistrarToolStripMenuItem2
         '
         Me.RegistrarToolStripMenuItem2.Name = "RegistrarToolStripMenuItem2"
-        Me.RegistrarToolStripMenuItem2.Size = New System.Drawing.Size(125, 22)
+        Me.RegistrarToolStripMenuItem2.Size = New System.Drawing.Size(148, 26)
         Me.RegistrarToolStripMenuItem2.Text = "Registrar"
         '
         'ModificarToolStripMenuItem2
         '
         Me.ModificarToolStripMenuItem2.Name = "ModificarToolStripMenuItem2"
-        Me.ModificarToolStripMenuItem2.Size = New System.Drawing.Size(125, 22)
+        Me.ModificarToolStripMenuItem2.Size = New System.Drawing.Size(148, 26)
         Me.ModificarToolStripMenuItem2.Text = "Modificar"
         '
         'EliminarToolStripMenuItem2
         '
         Me.EliminarToolStripMenuItem2.Name = "EliminarToolStripMenuItem2"
-        Me.EliminarToolStripMenuItem2.Size = New System.Drawing.Size(125, 22)
+        Me.EliminarToolStripMenuItem2.Size = New System.Drawing.Size(148, 26)
         Me.EliminarToolStripMenuItem2.Text = "Eliminar"
         '
         'MarcaToolStripMenuItem
         '
         Me.MarcaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem3, Me.RegistrarToolStripMenuItem3, Me.ModificarToolStripMenuItem3, Me.EliminarToolStripMenuItem3})
         Me.MarcaToolStripMenuItem.Name = "MarcaToolStripMenuItem"
-        Me.MarcaToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
+        Me.MarcaToolStripMenuItem.Size = New System.Drawing.Size(62, 24)
         Me.MarcaToolStripMenuItem.Text = "Marca"
         '
         'ConsultarToolStripMenuItem3
         '
         Me.ConsultarToolStripMenuItem3.Name = "ConsultarToolStripMenuItem3"
-        Me.ConsultarToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.ConsultarToolStripMenuItem3.Size = New System.Drawing.Size(148, 26)
         Me.ConsultarToolStripMenuItem3.Text = "Consultar"
         '
         'RegistrarToolStripMenuItem3
         '
         Me.RegistrarToolStripMenuItem3.Name = "RegistrarToolStripMenuItem3"
-        Me.RegistrarToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.RegistrarToolStripMenuItem3.Size = New System.Drawing.Size(148, 26)
         Me.RegistrarToolStripMenuItem3.Text = "Registrar"
         '
         'ModificarToolStripMenuItem3
         '
         Me.ModificarToolStripMenuItem3.Name = "ModificarToolStripMenuItem3"
-        Me.ModificarToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.ModificarToolStripMenuItem3.Size = New System.Drawing.Size(148, 26)
         Me.ModificarToolStripMenuItem3.Text = "Modificar"
         '
         'EliminarToolStripMenuItem3
         '
         Me.EliminarToolStripMenuItem3.Name = "EliminarToolStripMenuItem3"
-        Me.EliminarToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.EliminarToolStripMenuItem3.Size = New System.Drawing.Size(148, 26)
         Me.EliminarToolStripMenuItem3.Text = "Eliminar"
         '
         'lbl_titulo
@@ -186,22 +188,24 @@ Partial Class DeporTex
         Me.lbl_titulo.Font = New System.Drawing.Font("BankGothic Md BT", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_titulo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.lbl_titulo.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.lbl_titulo.Location = New System.Drawing.Point(515, 100)
+        Me.lbl_titulo.Location = New System.Drawing.Point(687, 123)
+        Me.lbl_titulo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbl_titulo.Name = "lbl_titulo"
-        Me.lbl_titulo.Size = New System.Drawing.Size(378, 67)
+        Me.lbl_titulo.Size = New System.Drawing.Size(469, 84)
         Me.lbl_titulo.TabIndex = 1
         Me.lbl_titulo.Text = "DeporTex"
         Me.lbl_titulo.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'DeporTex
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(758, 402)
+        Me.ClientSize = New System.Drawing.Size(1305, 664)
         Me.Controls.Add(Me.lbl_titulo)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "DeporTex"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DeporTex"
