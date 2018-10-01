@@ -107,6 +107,12 @@
       <DependentUpon>DeporTex.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Marca_Consultar_Eliminar.Designer.vb">
       <DependentUpon>Marca_Consultar_Eliminar.vb</DependentUpon>
     </Compile>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\DeporTex.resx">
       <DependentUpon>DeporTex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Marca_Consultar_Eliminar.resx">
       <DependentUpon>Marca_Consultar_Eliminar.vb</DependentUpon>
