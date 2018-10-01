@@ -17,7 +17,7 @@
             Exit Sub
         End If
 
-        Dim mensaje As String = validar_usuario(txt_contrasena.Text, txt_usuario.Text)
+        Dim mensaje As String = validar_usuario(txt_usuario.Text, txt_contrasena.Text)
         If mensaje = "Usuario encontrado." Then
             DeporTex.ShowDialog()
         Else
@@ -28,7 +28,7 @@
 
     Private Function validar_usuario(ByVal user As String, ByVal passwd As String) As String
         Dim tabla As New DataTable
-        tabla = bd.leo_tabla("SELECT * FROM Usuarios WHERE usuario = " & user & " AND contraseña = " & passwd)
+        tabla = bd.leo_tabla("SELECT * FROM Usuarios WHERE usuario = '" & user & "' AND contraseña = '" & passwd & "'")
         If tabla.Rows.Count = 0 Then
             Return "Usuario no encontrado."
         End If

@@ -39,3 +39,4 @@ C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreC
 C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.exe
 C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.xml
 C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.pdb
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Login.resources
