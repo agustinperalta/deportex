@@ -50,7 +50,7 @@ Partial Class Articulo_Registrar_Modificar
         Me.txt_nombre.Location = New System.Drawing.Point(136, 137)
         Me.txt_nombre.Name = "txt_nombre"
         Me.txt_nombre.Size = New System.Drawing.Size(183, 20)
-        Me.txt_nombre.TabIndex = 0
+        Me.txt_nombre.TabIndex = 2
         '
         'Label1
         '
@@ -108,7 +108,7 @@ Partial Class Articulo_Registrar_Modificar
         Me.cmd_nuevo.Location = New System.Drawing.Point(136, 358)
         Me.cmd_nuevo.Name = "cmd_nuevo"
         Me.cmd_nuevo.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_nuevo.TabIndex = 2
+        Me.cmd_nuevo.TabIndex = 5
         Me.cmd_nuevo.Text = "Nuevo"
         Me.cmd_nuevo.UseVisualStyleBackColor = True
         '
@@ -118,7 +118,7 @@ Partial Class Articulo_Registrar_Modificar
         Me.cmd_grabar.Location = New System.Drawing.Point(244, 358)
         Me.cmd_grabar.Name = "cmd_grabar"
         Me.cmd_grabar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_grabar.TabIndex = 2
+        Me.cmd_grabar.TabIndex = 6
         Me.cmd_grabar.Text = "Grabar"
         Me.cmd_grabar.UseVisualStyleBackColor = True
         '
@@ -129,14 +129,14 @@ Partial Class Articulo_Registrar_Modificar
         Me.dgv_registrar_eliminar.Location = New System.Drawing.Point(368, 56)
         Me.dgv_registrar_eliminar.Name = "dgv_registrar_eliminar"
         Me.dgv_registrar_eliminar.Size = New System.Drawing.Size(565, 338)
-        Me.dgv_registrar_eliminar.TabIndex = 3
+        Me.dgv_registrar_eliminar.TabIndex = 7
         '
         'txt_precio
         '
         Me.txt_precio.Location = New System.Drawing.Point(136, 186)
         Me.txt_precio.Name = "txt_precio"
         Me.txt_precio.Size = New System.Drawing.Size(100, 20)
-        Me.txt_precio.TabIndex = 0
+        Me.txt_precio.TabIndex = 3
         '
         'cmb_marca
         '
@@ -144,7 +144,7 @@ Partial Class Articulo_Registrar_Modificar
         Me.cmb_marca.Location = New System.Drawing.Point(136, 96)
         Me.cmb_marca.Name = "cmb_marca"
         Me.cmb_marca.Size = New System.Drawing.Size(183, 21)
-        Me.cmb_marca.TabIndex = 4
+        Me.cmb_marca.TabIndex = 1
         '
         'cmb_proveedor
         '
@@ -152,7 +152,7 @@ Partial Class Articulo_Registrar_Modificar
         Me.cmb_proveedor.Location = New System.Drawing.Point(136, 239)
         Me.cmb_proveedor.Name = "cmb_proveedor"
         Me.cmb_proveedor.Size = New System.Drawing.Size(183, 21)
-        Me.cmb_proveedor.TabIndex = 5
+        Me.cmb_proveedor.TabIndex = 4
         '
         'Articulo_Registrar_Modificar
         '

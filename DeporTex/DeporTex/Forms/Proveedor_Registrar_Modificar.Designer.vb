@@ -79,7 +79,7 @@ Partial Class Proveedor_Registrar_Modificar
         Me.txt_telefono.Mask = "99999999"
         Me.txt_telefono.Name = "txt_telefono"
         Me.txt_telefono.Size = New System.Drawing.Size(100, 20)
-        Me.txt_telefono.TabIndex = 4
+        Me.txt_telefono.TabIndex = 2
         Me.txt_telefono.ValidatingType = GetType(Integer)
         '
         'txt_razonSocial
@@ -87,7 +87,7 @@ Partial Class Proveedor_Registrar_Modificar
         Me.txt_razonSocial.Location = New System.Drawing.Point(124, 111)
         Me.txt_razonSocial.Name = "txt_razonSocial"
         Me.txt_razonSocial.Size = New System.Drawing.Size(183, 20)
-        Me.txt_razonSocial.TabIndex = 5
+        Me.txt_razonSocial.TabIndex = 1
         '
         'txt_cuil_proveedor
         '
@@ -95,7 +95,7 @@ Partial Class Proveedor_Registrar_Modificar
         Me.txt_cuil_proveedor.Mask = "999999999"
         Me.txt_cuil_proveedor.Name = "txt_cuil_proveedor"
         Me.txt_cuil_proveedor.Size = New System.Drawing.Size(76, 20)
-        Me.txt_cuil_proveedor.TabIndex = 6
+        Me.txt_cuil_proveedor.TabIndex = 0
         Me.txt_cuil_proveedor.ValidatingType = GetType(Integer)
         '
         'cmd_grabar
@@ -104,7 +104,7 @@ Partial Class Proveedor_Registrar_Modificar
         Me.cmd_grabar.Location = New System.Drawing.Point(182, 379)
         Me.cmd_grabar.Name = "cmd_grabar"
         Me.cmd_grabar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_grabar.TabIndex = 11
+        Me.cmd_grabar.TabIndex = 4
         Me.cmd_grabar.Text = "Grabar"
         Me.cmd_grabar.UseVisualStyleBackColor = True
         '
@@ -114,7 +114,7 @@ Partial Class Proveedor_Registrar_Modificar
         Me.cmd_nuevo.Location = New System.Drawing.Point(74, 379)
         Me.cmd_nuevo.Name = "cmd_nuevo"
         Me.cmd_nuevo.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_nuevo.TabIndex = 12
+        Me.cmd_nuevo.TabIndex = 3
         Me.cmd_nuevo.Text = "Nuevo"
         Me.cmd_nuevo.UseVisualStyleBackColor = True
         '

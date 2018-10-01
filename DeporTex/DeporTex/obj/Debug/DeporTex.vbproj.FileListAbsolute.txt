@@ -2,40 +2,19 @@ C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporT
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\DeporTex.exe
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\DeporTex.pdb
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\DeporTex.xml
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbprojAssemblyReference.cache
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Registrar_Modificar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Registrar_Modificar.resources
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.DeporTex.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Registra_Modificar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Consultar_eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Registrar_Modificar.resources
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Resources.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.GenerateResource.Cache
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.GenerateResource.cache
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreCompileInputs.cache
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.exe
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.xml
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.pdb
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Consultar_Eliminar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbprojAssemblyReference.cache
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreCompileInputs.cache
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Registrar_Modificar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Consultar_Eliminar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Registra_Modificar.resources
-<<<<<<< HEAD
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Consultar_eliminar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Registrar_Modificar.resources
-=======
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.vbprojAssemblyReference.cache
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Consultar_Eliminar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Registrar_Modificar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Consultar_Eliminar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.DeporTex.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Consultar_Eliminar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Registra_Modificar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Resources.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.GenerateResource.cache
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.exe
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.xml
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.pdb
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.exe.config
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.exe
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.pdb
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.xml
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Registrar_Modificar.resources
->>>>>>> 47012688faff4b14ee09992e4659eb87029cf7be
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Consultar_Eliminar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Registrar_Modificar.resources

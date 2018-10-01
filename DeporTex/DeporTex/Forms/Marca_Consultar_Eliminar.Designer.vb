@@ -38,7 +38,7 @@ Partial Class Marca_Consultar_Eliminar
         Me.chk_borrar.Location = New System.Drawing.Point(455, 27)
         Me.chk_borrar.Name = "chk_borrar"
         Me.chk_borrar.Size = New System.Drawing.Size(70, 20)
-        Me.chk_borrar.TabIndex = 11
+        Me.chk_borrar.TabIndex = 3
         Me.chk_borrar.Text = "Borrar"
         Me.chk_borrar.UseVisualStyleBackColor = True
         '
@@ -47,7 +47,7 @@ Partial Class Marca_Consultar_Eliminar
         Me.cmd_refrescar.Location = New System.Drawing.Point(357, 24)
         Me.cmd_refrescar.Name = "cmd_refrescar"
         Me.cmd_refrescar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_refrescar.TabIndex = 10
+        Me.cmd_refrescar.TabIndex = 2
         Me.cmd_refrescar.Text = "Refrescar"
         Me.cmd_refrescar.UseVisualStyleBackColor = True
         '
@@ -57,7 +57,7 @@ Partial Class Marca_Consultar_Eliminar
         Me.cmd_buscar.Location = New System.Drawing.Point(267, 24)
         Me.cmd_buscar.Name = "cmd_buscar"
         Me.cmd_buscar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_buscar.TabIndex = 9
+        Me.cmd_buscar.TabIndex = 1
         Me.cmd_buscar.Text = "Buscar"
         Me.cmd_buscar.UseVisualStyleBackColor = True
         '
@@ -76,7 +76,7 @@ Partial Class Marca_Consultar_Eliminar
         Me.txt_busqueda.Location = New System.Drawing.Point(83, 27)
         Me.txt_busqueda.Name = "txt_busqueda"
         Me.txt_busqueda.Size = New System.Drawing.Size(162, 20)
-        Me.txt_busqueda.TabIndex = 7
+        Me.txt_busqueda.TabIndex = 0
         Me.txt_busqueda.Text = "Ingrese el codigo de la marca"
         '
         'dgv_consultar_eliminar
