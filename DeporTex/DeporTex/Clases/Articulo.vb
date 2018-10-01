@@ -42,6 +42,26 @@
         Me._BD.INS_MOD_BOR(sql)
 
     End Sub
+    'Public Sub buscar_articulo(ByVal cod_articulo As String)
+    '    Dim sql As String = ""
+    '    sql = "SELECT * FROM Articulos WHERE cod_articulo = " & cod_articulo
+    '    Dim tabla As New DataTable
+    '    tabla = _BD.leo_tabla(sql)
+
+    '    If tabla.Rows.Count = 0 Then
+    '        MsgBox("No se recupero información")
+    '    Else
+    '        Me.transferir_1(tabla)
+    '    End If
+
+    'End Sub
+    'Private Sub transferir_1(ByVal tabla As DataTable)
+    '    _cod_articulo = tabla.Rows(0).("cod_articulo")
+    '    _id_marca = tabla.Rows(0)("id_marca")
+    '    _nombre = tabla.Rows(0)("nombre")
+    '    _precio = tabla.Rows(0)("precio")
+    '    _proveedor = tabla.Rows(0)("proveedor")
+    'End Sub
 
     Public Sub transferir(ByRef controles As Object)
         For Each obj In controles.Controls
