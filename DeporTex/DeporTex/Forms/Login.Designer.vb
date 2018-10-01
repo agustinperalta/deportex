@@ -23,11 +23,11 @@ Partial Class Login
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txt_usuario = New System.Windows.Forms.MaskedTextBox()
-        Me.txt_contrasena = New System.Windows.Forms.MaskedTextBox()
         Me.cmd_ingresar = New System.Windows.Forms.Button()
+        Me.txt_contrasena = New System.Windows.Forms.MaskedTextBox()
+        Me.txt_usuario = New System.Windows.Forms.MaskedTextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,14 +45,29 @@ Partial Class Login
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Iniciar Sesión"
         '
-        'Label1
+        'cmd_ingresar
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(25, 48)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Usuario"
+        Me.cmd_ingresar.Location = New System.Drawing.Point(92, 125)
+        Me.cmd_ingresar.Name = "cmd_ingresar"
+        Me.cmd_ingresar.Size = New System.Drawing.Size(75, 23)
+        Me.cmd_ingresar.TabIndex = 2
+        Me.cmd_ingresar.Text = "Ingresar"
+        Me.cmd_ingresar.UseVisualStyleBackColor = True
+        '
+        'txt_contrasena
+        '
+        Me.txt_contrasena.Location = New System.Drawing.Point(92, 79)
+        Me.txt_contrasena.Name = "txt_contrasena"
+        Me.txt_contrasena.Size = New System.Drawing.Size(140, 20)
+        Me.txt_contrasena.TabIndex = 1
+        Me.txt_contrasena.UseSystemPasswordChar = True
+        '
+        'txt_usuario
+        '
+        Me.txt_usuario.Location = New System.Drawing.Point(92, 48)
+        Me.txt_usuario.Name = "txt_usuario"
+        Me.txt_usuario.Size = New System.Drawing.Size(140, 20)
+        Me.txt_usuario.TabIndex = 0
         '
         'Label2
         '
@@ -63,29 +78,14 @@ Partial Class Login
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Contraseña"
         '
-        'txt_usuario
+        'Label1
         '
-        Me.txt_usuario.Location = New System.Drawing.Point(92, 48)
-        Me.txt_usuario.Name = "txt_usuario"
-        Me.txt_usuario.Size = New System.Drawing.Size(140, 20)
-        Me.txt_usuario.TabIndex = 4
-        '
-        'txt_contrasena
-        '
-        Me.txt_contrasena.Location = New System.Drawing.Point(92, 79)
-        Me.txt_contrasena.Name = "txt_contrasena"
-        Me.txt_contrasena.Size = New System.Drawing.Size(140, 20)
-        Me.txt_contrasena.TabIndex = 5
-        Me.txt_contrasena.UseSystemPasswordChar = True
-        '
-        'cmd_ingresar
-        '
-        Me.cmd_ingresar.Location = New System.Drawing.Point(92, 125)
-        Me.cmd_ingresar.Name = "cmd_ingresar"
-        Me.cmd_ingresar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_ingresar.TabIndex = 6
-        Me.cmd_ingresar.Text = "Ingresar"
-        Me.cmd_ingresar.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(25, 48)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(43, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Usuario"
         '
         'Login
         '

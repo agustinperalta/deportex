@@ -35,6 +35,8 @@ Partial Class Articulo_Registrar_Modificar
         Me.txt_precio = New System.Windows.Forms.MaskedTextBox()
         Me.cmb_marca = New System.Windows.Forms.ComboBox()
         Me.cmb_proveedor = New System.Windows.Forms.ComboBox()
+        Me.cmb_tipoArticulo = New System.Windows.Forms.ComboBox()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.dgv_registrar_eliminar, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -47,7 +49,7 @@ Partial Class Articulo_Registrar_Modificar
         '
         'txt_nombre
         '
-        Me.txt_nombre.Location = New System.Drawing.Point(136, 137)
+        Me.txt_nombre.Location = New System.Drawing.Point(136, 190)
         Me.txt_nombre.Name = "txt_nombre"
         Me.txt_nombre.Size = New System.Drawing.Size(183, 20)
         Me.txt_nombre.TabIndex = 2
@@ -66,7 +68,7 @@ Partial Class Articulo_Registrar_Modificar
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label2.Location = New System.Drawing.Point(91, 96)
+        Me.Label2.Location = New System.Drawing.Point(91, 149)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(37, 13)
         Me.Label2.TabIndex = 1
@@ -76,7 +78,7 @@ Partial Class Articulo_Registrar_Modificar
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label3.Location = New System.Drawing.Point(91, 140)
+        Me.Label3.Location = New System.Drawing.Point(91, 193)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(44, 13)
         Me.Label3.TabIndex = 1
@@ -86,7 +88,7 @@ Partial Class Articulo_Registrar_Modificar
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label4.Location = New System.Drawing.Point(91, 189)
+        Me.Label4.Location = New System.Drawing.Point(91, 242)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(37, 13)
         Me.Label4.TabIndex = 1
@@ -96,7 +98,7 @@ Partial Class Articulo_Registrar_Modificar
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label5.Location = New System.Drawing.Point(72, 242)
+        Me.Label5.Location = New System.Drawing.Point(72, 295)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(56, 13)
         Me.Label5.TabIndex = 1
@@ -133,7 +135,7 @@ Partial Class Articulo_Registrar_Modificar
         '
         'txt_precio
         '
-        Me.txt_precio.Location = New System.Drawing.Point(136, 186)
+        Me.txt_precio.Location = New System.Drawing.Point(136, 239)
         Me.txt_precio.Name = "txt_precio"
         Me.txt_precio.Size = New System.Drawing.Size(100, 20)
         Me.txt_precio.TabIndex = 3
@@ -141,7 +143,7 @@ Partial Class Articulo_Registrar_Modificar
         'cmb_marca
         '
         Me.cmb_marca.FormattingEnabled = True
-        Me.cmb_marca.Location = New System.Drawing.Point(136, 96)
+        Me.cmb_marca.Location = New System.Drawing.Point(136, 149)
         Me.cmb_marca.Name = "cmb_marca"
         Me.cmb_marca.Size = New System.Drawing.Size(183, 21)
         Me.cmb_marca.TabIndex = 1
@@ -149,10 +151,28 @@ Partial Class Articulo_Registrar_Modificar
         'cmb_proveedor
         '
         Me.cmb_proveedor.FormattingEnabled = True
-        Me.cmb_proveedor.Location = New System.Drawing.Point(136, 239)
+        Me.cmb_proveedor.Location = New System.Drawing.Point(136, 292)
         Me.cmb_proveedor.Name = "cmb_proveedor"
         Me.cmb_proveedor.Size = New System.Drawing.Size(183, 21)
         Me.cmb_proveedor.TabIndex = 4
+        '
+        'cmb_tipoArticulo
+        '
+        Me.cmb_tipoArticulo.FormattingEnabled = True
+        Me.cmb_tipoArticulo.Location = New System.Drawing.Point(136, 101)
+        Me.cmb_tipoArticulo.Name = "cmb_tipoArticulo"
+        Me.cmb_tipoArticulo.Size = New System.Drawing.Size(183, 21)
+        Me.cmb_tipoArticulo.TabIndex = 8
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label6.Location = New System.Drawing.Point(48, 104)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(80, 13)
+        Me.Label6.TabIndex = 9
+        Me.Label6.Text = "Tipo de articulo"
         '
         'Articulo_Registrar_Modificar
         '
@@ -160,6 +180,8 @@ Partial Class Articulo_Registrar_Modificar
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(968, 436)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.cmb_tipoArticulo)
         Me.Controls.Add(Me.cmb_proveedor)
         Me.Controls.Add(Me.cmb_marca)
         Me.Controls.Add(Me.dgv_registrar_eliminar)
@@ -195,4 +217,6 @@ Partial Class Articulo_Registrar_Modificar
     Friend WithEvents txt_precio As MaskedTextBox
     Friend WithEvents cmb_marca As ComboBox
     Friend WithEvents cmb_proveedor As ComboBox
+    Friend WithEvents cmb_tipoArticulo As ComboBox
+    Friend WithEvents Label6 As Label
 End Class

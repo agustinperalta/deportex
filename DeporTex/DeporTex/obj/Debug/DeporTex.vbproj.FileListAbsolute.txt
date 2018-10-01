@@ -39,3 +39,5 @@ C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreC
 C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.exe
 C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.xml
 C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.pdb
+C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.TipoArticulo_Consultar_Eliminar.resources
+C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.TipoArticulo_Registrar_Modificar.resources
