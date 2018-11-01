@@ -36,8 +36,20 @@ Partial Class DeporTex
         Me.ConsultarToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.TipoDeArticuloToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultarOEliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RegistrarOModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.cmd_consultar_remito = New System.Windows.Forms.Button()
+        Me.cmd_registrar_remito = New System.Windows.Forms.Button()
+        Me.cmd_consultar_factura = New System.Windows.Forms.Button()
+        Me.cmd_registrar_nueva_factura = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.cmd_reportes = New System.Windows.Forms.Button()
+        Me.cmd_estadisticas = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'lbl_titulo
@@ -229,16 +241,36 @@ Partial Class DeporTex
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArticulosToolStripMenuItem, Me.ClientesToolStripMenuItem, Me.ProveedoresToolStripMenuItem, Me.MarcaToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArticulosToolStripMenuItem, Me.ClientesToolStripMenuItem, Me.ProveedoresToolStripMenuItem, Me.MarcaToolStripMenuItem, Me.TipoDeArticuloToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(959, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1287, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
 >>>>>>> 3293ae785473b47e28f29b380efa59f49e0f1ec4
         '
+        'TipoDeArticuloToolStripMenuItem
+        '
+        Me.TipoDeArticuloToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarOEliminarToolStripMenuItem, Me.RegistrarOModificarToolStripMenuItem})
+        Me.TipoDeArticuloToolStripMenuItem.Name = "TipoDeArticuloToolStripMenuItem"
+        Me.TipoDeArticuloToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
+        Me.TipoDeArticuloToolStripMenuItem.Text = "Tipo de Articulo"
+        '
+        'ConsultarOEliminarToolStripMenuItem
+        '
+        Me.ConsultarOEliminarToolStripMenuItem.Name = "ConsultarOEliminarToolStripMenuItem"
+        Me.ConsultarOEliminarToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.ConsultarOEliminarToolStripMenuItem.Text = "Consultar o Eliminar"
+        '
+        'RegistrarOModificarToolStripMenuItem
+        '
+        Me.RegistrarOModificarToolStripMenuItem.Name = "RegistrarOModificarToolStripMenuItem"
+        Me.RegistrarOModificarToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.RegistrarOModificarToolStripMenuItem.Text = "Registrar o Modificar"
+        '
         'GroupBox1
         '
+<<<<<<< HEAD
 <<<<<<< HEAD
         Me.lbl_titulo.AutoSize = True
         Me.lbl_titulo.Font = New System.Drawing.Font("BankGothic Md BT", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -252,13 +284,84 @@ Partial Class DeporTex
         Me.lbl_titulo.Text = "DeporTex"
         Me.lbl_titulo.TextAlign = System.Drawing.ContentAlignment.TopCenter
 =======
+=======
+        Me.GroupBox1.Controls.Add(Me.cmd_consultar_remito)
+        Me.GroupBox1.Controls.Add(Me.cmd_registrar_remito)
+        Me.GroupBox1.Controls.Add(Me.cmd_consultar_factura)
+        Me.GroupBox1.Controls.Add(Me.cmd_registrar_nueva_factura)
+>>>>>>> 2b65e9efdc67e4fab170d12a0fbe3d569b8d599e
         Me.GroupBox1.Location = New System.Drawing.Point(113, 209)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(337, 201)
+        Me.GroupBox1.Size = New System.Drawing.Size(337, 143)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Procesos"
 >>>>>>> 3293ae785473b47e28f29b380efa59f49e0f1ec4
+        '
+        'cmd_consultar_remito
+        '
+        Me.cmd_consultar_remito.Location = New System.Drawing.Point(6, 106)
+        Me.cmd_consultar_remito.Name = "cmd_consultar_remito"
+        Me.cmd_consultar_remito.Size = New System.Drawing.Size(325, 23)
+        Me.cmd_consultar_remito.TabIndex = 0
+        Me.cmd_consultar_remito.Text = "Consultar remito"
+        Me.cmd_consultar_remito.UseVisualStyleBackColor = True
+        '
+        'cmd_registrar_remito
+        '
+        Me.cmd_registrar_remito.Location = New System.Drawing.Point(6, 77)
+        Me.cmd_registrar_remito.Name = "cmd_registrar_remito"
+        Me.cmd_registrar_remito.Size = New System.Drawing.Size(325, 23)
+        Me.cmd_registrar_remito.TabIndex = 0
+        Me.cmd_registrar_remito.Text = "Registrar nuevo remito"
+        Me.cmd_registrar_remito.UseVisualStyleBackColor = True
+        '
+        'cmd_consultar_factura
+        '
+        Me.cmd_consultar_factura.Location = New System.Drawing.Point(6, 48)
+        Me.cmd_consultar_factura.Name = "cmd_consultar_factura"
+        Me.cmd_consultar_factura.Size = New System.Drawing.Size(325, 23)
+        Me.cmd_consultar_factura.TabIndex = 0
+        Me.cmd_consultar_factura.Text = "Consultar factura"
+        Me.cmd_consultar_factura.UseVisualStyleBackColor = True
+        '
+        'cmd_registrar_nueva_factura
+        '
+        Me.cmd_registrar_nueva_factura.Location = New System.Drawing.Point(6, 19)
+        Me.cmd_registrar_nueva_factura.Name = "cmd_registrar_nueva_factura"
+        Me.cmd_registrar_nueva_factura.Size = New System.Drawing.Size(325, 23)
+        Me.cmd_registrar_nueva_factura.TabIndex = 0
+        Me.cmd_registrar_nueva_factura.Text = "Registrar nueva factura"
+        Me.cmd_registrar_nueva_factura.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.cmd_estadisticas)
+        Me.GroupBox2.Controls.Add(Me.cmd_reportes)
+        Me.GroupBox2.Location = New System.Drawing.Point(883, 209)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(338, 143)
+        Me.GroupBox2.TabIndex = 3
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Reportes y Estadisticas"
+        '
+        'cmd_reportes
+        '
+        Me.cmd_reportes.Location = New System.Drawing.Point(6, 19)
+        Me.cmd_reportes.Name = "cmd_reportes"
+        Me.cmd_reportes.Size = New System.Drawing.Size(325, 23)
+        Me.cmd_reportes.TabIndex = 1
+        Me.cmd_reportes.Text = "Reportes"
+        Me.cmd_reportes.UseVisualStyleBackColor = True
+        '
+        'cmd_estadisticas
+        '
+        Me.cmd_estadisticas.Location = New System.Drawing.Point(6, 77)
+        Me.cmd_estadisticas.Name = "cmd_estadisticas"
+        Me.cmd_estadisticas.Size = New System.Drawing.Size(325, 23)
+        Me.cmd_estadisticas.TabIndex = 1
+        Me.cmd_estadisticas.Text = "Estadisticas"
+        Me.cmd_estadisticas.UseVisualStyleBackColor = True
         '
         'DeporTex
         '
@@ -266,9 +369,14 @@ Partial Class DeporTex
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
 <<<<<<< HEAD
+<<<<<<< HEAD
         Me.ClientSize = New System.Drawing.Size(1305, 664)
 =======
         Me.ClientSize = New System.Drawing.Size(959, 449)
+=======
+        Me.ClientSize = New System.Drawing.Size(1287, 449)
+        Me.Controls.Add(Me.GroupBox2)
+>>>>>>> 2b65e9efdc67e4fab170d12a0fbe3d569b8d599e
         Me.Controls.Add(Me.GroupBox1)
 >>>>>>> 3293ae785473b47e28f29b380efa59f49e0f1ec4
         Me.Controls.Add(Me.lbl_titulo)
@@ -281,6 +389,8 @@ Partial Class DeporTex
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -300,4 +410,14 @@ Partial Class DeporTex
     Friend WithEvents RegistrarToolStripMenuItem3 As ToolStripMenuItem
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents TipoDeArticuloToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultarOEliminarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RegistrarOModificarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents cmd_consultar_remito As Button
+    Friend WithEvents cmd_registrar_remito As Button
+    Friend WithEvents cmd_consultar_factura As Button
+    Friend WithEvents cmd_registrar_nueva_factura As Button
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents cmd_estadisticas As Button
+    Friend WithEvents cmd_reportes As Button
 End Class

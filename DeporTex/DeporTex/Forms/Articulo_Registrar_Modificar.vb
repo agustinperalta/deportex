@@ -12,11 +12,12 @@
         cargar_grilla()
         TE.cargar_combo(cmb_marca, "SELECT * FROM Marcas")
         TE.cargar_combo(cmb_proveedor, "SELECT * FROM Proveedores")
+        TE.cargar_combo(cmb_tipoArticulo, "SELECT * FROM TipoArticulo")
     End Sub
 
     Private Sub cargar_grilla()
         Dim sql As String
-        sql = "SELECT cod_articulo As 'Codigo Articulos', M.nombre As 'Marca', A.nombre As 'Nombre', precio As 'Precio', P.razonSocial As 'Proveedor' FROM Articulos A INNER JOIN Marcas M ON (A.id_marca = M.id_marca) INNER JOIN Proveedores P ON (A.proveedor=P.cuil_proveedor)"
+        sql = "SELECT cod_articulo As 'Codigo Articulos', M.nombre As 'Marca', A.nombre As 'Nombre', precio As 'Precio', P.razonSocial As 'Proveedor', TA.nombre as 'Tipo Articulo' FROM Articulos A INNER JOIN Marcas M ON (A.id_marca = M.id_marca) INNER JOIN Proveedores P ON (A.proveedor=P.cuil_proveedor) LEFT JOIN TipoArticulo TA ON (A.id_tipo_articulo = TA.id_tipo)"
         Me.dgv_registrar_eliminar.DataSource = Me.conex.leo_tabla(sql)
     End Sub
     Private Function devolver_item(ByVal sql As String)

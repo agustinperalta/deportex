@@ -44,7 +44,7 @@ Partial Class Marca_Registra_Modificar
         Me.txt_nombre.Location = New System.Drawing.Point(97, 86)
         Me.txt_nombre.Name = "txt_nombre"
         Me.txt_nombre.Size = New System.Drawing.Size(194, 20)
-        Me.txt_nombre.TabIndex = 0
+        Me.txt_nombre.TabIndex = 1
         '
         'dgv_registrar_modificar
         '
@@ -79,7 +79,7 @@ Partial Class Marca_Registra_Modificar
         Me.cmd_grabar.Location = New System.Drawing.Point(216, 311)
         Me.cmd_grabar.Name = "cmd_grabar"
         Me.cmd_grabar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_grabar.TabIndex = 9
+        Me.cmd_grabar.TabIndex = 3
         Me.cmd_grabar.Text = "Grabar"
         Me.cmd_grabar.UseVisualStyleBackColor = True
         '
@@ -89,7 +89,7 @@ Partial Class Marca_Registra_Modificar
         Me.cmd_nuevo.Location = New System.Drawing.Point(108, 311)
         Me.cmd_nuevo.Name = "cmd_nuevo"
         Me.cmd_nuevo.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_nuevo.TabIndex = 10
+        Me.cmd_nuevo.TabIndex = 2
         Me.cmd_nuevo.Text = "Nuevo"
         Me.cmd_nuevo.UseVisualStyleBackColor = True
         '

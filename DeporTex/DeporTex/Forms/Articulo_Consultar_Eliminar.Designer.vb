@@ -38,14 +38,14 @@ Partial Class Articulo_Consultar_Eliminar
         Me.dgv_consultar_articulo.Location = New System.Drawing.Point(61, 116)
         Me.dgv_consultar_articulo.Name = "dgv_consultar_articulo"
         Me.dgv_consultar_articulo.Size = New System.Drawing.Size(575, 333)
-        Me.dgv_consultar_articulo.TabIndex = 0
+        Me.dgv_consultar_articulo.TabIndex = 5
         '
         'txt_busqueda
         '
         Me.txt_busqueda.Location = New System.Drawing.Point(101, 51)
         Me.txt_busqueda.Name = "txt_busqueda"
         Me.txt_busqueda.Size = New System.Drawing.Size(162, 20)
-        Me.txt_busqueda.TabIndex = 1
+        Me.txt_busqueda.TabIndex = 0
         Me.txt_busqueda.Text = "Ingrese codigo de articulo"
         '
         'Label1
@@ -55,7 +55,7 @@ Partial Class Articulo_Consultar_Eliminar
         Me.Label1.Location = New System.Drawing.Point(30, 50)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 18)
-        Me.Label1.TabIndex = 2
+        Me.Label1.TabIndex = 4
         Me.Label1.Text = "Buscar"
         '
         'cmd_buscar
@@ -64,7 +64,7 @@ Partial Class Articulo_Consultar_Eliminar
         Me.cmd_buscar.Location = New System.Drawing.Point(285, 51)
         Me.cmd_buscar.Name = "cmd_buscar"
         Me.cmd_buscar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_buscar.TabIndex = 3
+        Me.cmd_buscar.TabIndex = 1
         Me.cmd_buscar.Text = "Buscar"
         Me.cmd_buscar.UseVisualStyleBackColor = True
         '
@@ -73,7 +73,7 @@ Partial Class Articulo_Consultar_Eliminar
         Me.cmd_refrescar.Location = New System.Drawing.Point(389, 51)
         Me.cmd_refrescar.Name = "cmd_refrescar"
         Me.cmd_refrescar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_refrescar.TabIndex = 4
+        Me.cmd_refrescar.TabIndex = 2
         Me.cmd_refrescar.Text = "Refrescar"
         Me.cmd_refrescar.UseVisualStyleBackColor = True
         '
@@ -84,7 +84,7 @@ Partial Class Articulo_Consultar_Eliminar
         Me.chk_borrar.Location = New System.Drawing.Point(503, 51)
         Me.chk_borrar.Name = "chk_borrar"
         Me.chk_borrar.Size = New System.Drawing.Size(70, 20)
-        Me.chk_borrar.TabIndex = 5
+        Me.chk_borrar.TabIndex = 3
         Me.chk_borrar.Text = "Borrar"
         Me.chk_borrar.UseVisualStyleBackColor = True
         '

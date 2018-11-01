@@ -66,7 +66,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.cmd_grabar.Location = New System.Drawing.Point(227, 449)
         Me.cmd_grabar.Name = "cmd_grabar"
         Me.cmd_grabar.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_grabar.TabIndex = 14
+        Me.cmd_grabar.TabIndex = 11
         Me.cmd_grabar.Text = "Grabar"
         Me.cmd_grabar.UseVisualStyleBackColor = True
         '
@@ -76,7 +76,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.cmd_nuevo.Location = New System.Drawing.Point(123, 449)
         Me.cmd_nuevo.Name = "cmd_nuevo"
         Me.cmd_nuevo.Size = New System.Drawing.Size(75, 23)
-        Me.cmd_nuevo.TabIndex = 15
+        Me.cmd_nuevo.TabIndex = 10
         Me.cmd_nuevo.Text = "Nuevo"
         Me.cmd_nuevo.UseVisualStyleBackColor = True
         '
@@ -135,7 +135,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_calle.Location = New System.Drawing.Point(123, 243)
         Me.txt_calle.Name = "txt_calle"
         Me.txt_calle.Size = New System.Drawing.Size(181, 20)
-        Me.txt_calle.TabIndex = 6
+        Me.txt_calle.TabIndex = 5
         '
         'txt_fecha_nac
         '
@@ -143,7 +143,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_fecha_nac.Mask = "00/00/0000"
         Me.txt_fecha_nac.Name = "txt_fecha_nac"
         Me.txt_fecha_nac.Size = New System.Drawing.Size(77, 20)
-        Me.txt_fecha_nac.TabIndex = 7
+        Me.txt_fecha_nac.TabIndex = 4
         Me.txt_fecha_nac.ValidatingType = GetType(Date)
         '
         'txt_cuil_cliente
@@ -152,7 +152,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_cuil_cliente.Mask = "9999999999"
         Me.txt_cuil_cliente.Name = "txt_cuil_cliente"
         Me.txt_cuil_cliente.Size = New System.Drawing.Size(77, 20)
-        Me.txt_cuil_cliente.TabIndex = 8
+        Me.txt_cuil_cliente.TabIndex = 0
         Me.txt_cuil_cliente.ValidatingType = GetType(Integer)
         '
         'txt_nombre
@@ -160,7 +160,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_nombre.Location = New System.Drawing.Point(121, 80)
         Me.txt_nombre.Name = "txt_nombre"
         Me.txt_nombre.Size = New System.Drawing.Size(183, 20)
-        Me.txt_nombre.TabIndex = 19
+        Me.txt_nombre.TabIndex = 1
         '
         'Label7
         '
@@ -177,7 +177,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_apellido.Location = New System.Drawing.Point(121, 122)
         Me.txt_apellido.Name = "txt_apellido"
         Me.txt_apellido.Size = New System.Drawing.Size(183, 20)
-        Me.txt_apellido.TabIndex = 22
+        Me.txt_apellido.TabIndex = 2
         '
         'Label6
         '
@@ -195,7 +195,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_sexo.Mask = "a"
         Me.txt_sexo.Name = "txt_sexo"
         Me.txt_sexo.Size = New System.Drawing.Size(24, 20)
-        Me.txt_sexo.TabIndex = 24
+        Me.txt_sexo.TabIndex = 3
         '
         'txt_numero
         '
@@ -203,7 +203,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_numero.Mask = "999999999"
         Me.txt_numero.Name = "txt_numero"
         Me.txt_numero.Size = New System.Drawing.Size(99, 20)
-        Me.txt_numero.TabIndex = 25
+        Me.txt_numero.TabIndex = 6
         Me.txt_numero.ValidatingType = GetType(Integer)
         '
         'txt_email
@@ -211,7 +211,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_email.Location = New System.Drawing.Point(121, 325)
         Me.txt_email.Name = "txt_email"
         Me.txt_email.Size = New System.Drawing.Size(181, 20)
-        Me.txt_email.TabIndex = 26
+        Me.txt_email.TabIndex = 7
         '
         'Label8
         '
@@ -248,7 +248,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_nro_tarjeta.Location = New System.Drawing.Point(123, 364)
         Me.txt_nro_tarjeta.Name = "txt_nro_tarjeta"
         Me.txt_nro_tarjeta.Size = New System.Drawing.Size(181, 20)
-        Me.txt_nro_tarjeta.TabIndex = 30
+        Me.txt_nro_tarjeta.TabIndex = 8
         '
         'txt_telefono
         '
@@ -256,7 +256,7 @@ Partial Class Cliente_Registrar_Modificar
         Me.txt_telefono.Mask = "9999999999"
         Me.txt_telefono.Name = "txt_telefono"
         Me.txt_telefono.Size = New System.Drawing.Size(97, 20)
-        Me.txt_telefono.TabIndex = 31
+        Me.txt_telefono.TabIndex = 9
         Me.txt_telefono.ValidatingType = GetType(Integer)
         '
         'Cliente_Registrar_Modificar

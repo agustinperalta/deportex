@@ -5,19 +5,21 @@
     Public Property nombre As String
     Public Property precio As Double
     Public Property proveedor As Integer
+    Public Property id_tipo_articulo As Integer
 
 
     Public Sub insertar()
         Dim sql As String = ""
         sql = "INSERT INTO Articulos("
         sql &= "cod_articulo, id_marca, nombre, "
-        sql &= "precio, proveedor)"
+        sql &= "precio, proveedor, id_tipo_articulo)"
         sql &= "VALUES ("
         sql &= "'" & _cod_articulo & "'"
         sql &= "," & _id_marca
         sql &= ",'" & _nombre & "'"
         sql &= ", '" & _precio & "'"
-        sql &= ", " & _proveedor & ")"
+        sql &= ", " & _proveedor
+        sql &= "," & _id_tipo_articulo & ")"
 
         Me._BD.INS_MOD_BOR(sql)
 
@@ -29,6 +31,7 @@
         sql &= ", nombre = '" & Me._nombre & "'"
         sql &= ", precio = " & Me._precio
         sql &= ", proveedor = " & Me._proveedor
+        sql &= ", id_tipo_articulo = " & Me._id_tipo_articulo
         sql &= " WHERE cod_articulo = '" & Me._cod_articulo & "'"
 
         Me._BD.INS_MOD_BOR(sql)
@@ -42,6 +45,26 @@
         Me._BD.INS_MOD_BOR(sql)
 
     End Sub
+    'Public Sub buscar_articulo(ByVal cod_articulo As String)
+    '    Dim sql As String = ""
+    '    sql = "SELECT * FROM Articulos WHERE cod_articulo = " & cod_articulo
+    '    Dim tabla As New DataTable
+    '    tabla = _BD.leo_tabla(sql)
+
+    '    If tabla.Rows.Count = 0 Then
+    '        MsgBox("No se recupero información")
+    '    Else
+    '        Me.transferir_1(tabla)
+    '    End If
+
+    'End Sub
+    'Private Sub transferir_1(ByVal tabla As DataTable)
+    '    _cod_articulo = tabla.Rows(0).("cod_articulo")
+    '    _id_marca = tabla.Rows(0)("id_marca")
+    '    _nombre = tabla.Rows(0)("nombre")
+    '    _precio = tabla.Rows(0)("precio")
+    '    _proveedor = tabla.Rows(0)("proveedor")
+    'End Sub
 
     Public Sub transferir(ByRef controles As Object)
         For Each obj In controles.Controls
@@ -75,6 +98,8 @@
                     id_marca = obj.SelectedValue
                 Case "cmb_proveedor"
                     proveedor = obj.SelectedValue
+                Case "cmb_tipoArticulo"
+                    id_tipo_articulo = obj.SelectedValue
             End Select
 
 

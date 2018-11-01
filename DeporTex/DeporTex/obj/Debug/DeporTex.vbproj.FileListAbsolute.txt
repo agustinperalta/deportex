@@ -2,40 +2,108 @@ C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporT
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\DeporTex.exe
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\DeporTex.pdb
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\DeporTex.xml
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Registrar_Modificar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Registrar_Modificar.resources
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.DeporTex.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Login.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Registra_Modificar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Consultar_eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Registrar_Modificar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.TipoArticulo_Consultar_Eliminar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.TipoArticulo_Registrar_Modificar.resources
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Resources.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.GenerateResource.Cache
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.GenerateResource.cache
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreCompileInputs.cache
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.exe
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.xml
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.pdb
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Consultar_Eliminar.resources
 C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbprojAssemblyReference.cache
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreCompileInputs.cache
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Registrar_Modificar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Consultar_Eliminar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Registra_Modificar.resources
-<<<<<<< HEAD
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Consultar_eliminar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Proveedor_Registrar_Modificar.resources
-=======
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.vbprojAssemblyReference.cache
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Consultar_Eliminar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Articulo_Registrar_Modificar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Consultar_Eliminar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.DeporTex.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Consultar_Eliminar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Marca_Registra_Modificar.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Resources.resources
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.GenerateResource.cache
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.exe
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.xml
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.pdb
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.exe.config
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.exe
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.pdb
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\bin\Debug\DeporTex.xml
-C:\Users\User\Desktop\deportex\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Registrar_Modificar.resources
->>>>>>> 47012688faff4b14ee09992e4659eb87029cf7be
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Consultar_Eliminar.resources
-C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Cliente_Registrar_Modificar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Factura_consultar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Factura_registrar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Remito_consultar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Remito_registrar.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\EnvDTE.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\stdole.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\EnvDTE80.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\VSLangProj.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\VSLangProj80.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.MSXML.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\VSLangProj2.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.vbproj.CopyComplete
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.rv_cliente.resources
+C:\Users\hp\OneDrive\Documentos\Facultad\Tercer año\PAV\Trabajo_Practico\DeporTex\DeporTex\obj\Debug\DeporTex.Reportes.resources
