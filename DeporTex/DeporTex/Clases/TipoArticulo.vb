@@ -6,8 +6,8 @@
     Public Sub insertar()
         Dim sql As String = ""
         sql = "INSERT INTO TipoArticulo("
-        sql &= "id_tipo, nombre "
-        sql &= "VALUES (" & _id_tipo & ", " & nombre & ")"
+        sql &= "id_tipo, nombre) "
+        sql &= "VALUES (" & _id_tipo & ", '" & nombre & "')"
 
         Me._BD.INS_MOD_BOR(sql)
     End Sub

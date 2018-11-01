@@ -22,5 +22,100 @@ DeporTex
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:DeporTex.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.ClienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.ArticuloDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.TipoFacturaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.MarcasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.FacturaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.TipoArticuloDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.ClienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.ArticuloRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.TipoFacturaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.MarcasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.FacturaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.TipoArticuloRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.ClienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.ArticuloRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.TipoFacturaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.MarcasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.FacturaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeporTex.DataSet1.TipoArticuloRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 </members>
 </doc>
