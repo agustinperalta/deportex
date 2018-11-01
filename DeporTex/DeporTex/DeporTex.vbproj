@@ -71,11 +71,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Articulo.vb" />
+    <Compile Include="Clases\Cliente.vb" />
     <Compile Include="Clases\Conexion.vb" />
+    <Compile Include="Clases\Marca.vb" />
+    <Compile Include="Clases\Proveedor.vb" />
+    <Compile Include="Clases\Tratamientos_Especiales.vb" />
     <Compile Include="Forms\Articulo_Consultar_Eliminar.Designer.vb">
       <DependentUpon>Articulo_Consultar_Eliminar.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\Articulo_Consultar_Eliminar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Articulo_Registrar_Modificar.Designer.vb">
+      <DependentUpon>Articulo_Registrar_Modificar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Articulo_Registrar_Modificar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cliente_Consultar_Eliminar.Designer.vb">
+      <DependentUpon>Cliente_Consultar_Eliminar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cliente_Consultar_Eliminar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cliente_Registrar_Modificar.Designer.vb">
+      <DependentUpon>Cliente_Registrar_Modificar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cliente_Registrar_Modificar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\DeporTex.vb">
@@ -83,6 +105,30 @@
     </Compile>
     <Compile Include="Forms\DeporTex.Designer.vb">
       <DependentUpon>DeporTex.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Marca_Consultar_Eliminar.Designer.vb">
+      <DependentUpon>Marca_Consultar_Eliminar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Marca_Consultar_Eliminar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Marca_Registra_Modificar.Designer.vb">
+      <DependentUpon>Marca_Registra_Modificar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Marca_Registra_Modificar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Proveedor_Consultar_eliminar.Designer.vb">
+      <DependentUpon>Proveedor_Consultar_eliminar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Proveedor_Consultar_eliminar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Proveedor_Registrar_Modificar.Designer.vb">
+      <DependentUpon>Proveedor_Registrar_Modificar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Proveedor_Registrar_Modificar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -105,8 +151,29 @@
     <EmbeddedResource Include="Forms\Articulo_Consultar_Eliminar.resx">
       <DependentUpon>Articulo_Consultar_Eliminar.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Articulo_Registrar_Modificar.resx">
+      <DependentUpon>Articulo_Registrar_Modificar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cliente_Consultar_Eliminar.resx">
+      <DependentUpon>Cliente_Consultar_Eliminar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cliente_Registrar_Modificar.resx">
+      <DependentUpon>Cliente_Registrar_Modificar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\DeporTex.resx">
       <DependentUpon>DeporTex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Marca_Consultar_Eliminar.resx">
+      <DependentUpon>Marca_Consultar_Eliminar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Marca_Registra_Modificar.resx">
+      <DependentUpon>Marca_Registra_Modificar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Proveedor_Consultar_eliminar.resx">
+      <DependentUpon>Proveedor_Consultar_eliminar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Proveedor_Registrar_Modificar.resx">
+      <DependentUpon>Proveedor_Registrar_Modificar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -1,7 +1,7 @@
 ﻿Public Class Conexion
-    Dim conn As OleDb.OleDbConnection
+    Dim conn As New OleDb.OleDbConnection
     Dim cmd As New OleDb.OleDbCommand
-    Dim _cadena_conexion As String = "Provider=SQLNCLI11;Data Source=laptop-vlng4bcv\sqlexpress"
+    Dim _cadena_conexion As String = "Provider=SQLNCLI11;Data Source=LAPTOP-VLNG4BCV\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=_DB_DEPORTEX"
 
     Private Sub conectar()
         conn.ConnectionString = _cadena_conexion
