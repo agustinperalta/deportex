@@ -38,4 +38,27 @@
     Private Sub RegistrarOModificarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarOModificarToolStripMenuItem.Click
         TipoArticulo_Registrar_Modificar.ShowDialog()
     End Sub
+
+    Private Sub cmd_registrar_nueva_factura_Click(sender As Object, e As EventArgs) Handles cmd_registrar_nueva_factura.Click
+        Factura_registrar.ShowDialog()
+    End Sub
+
+    Private Sub cmd_consultar_factura_Click(sender As Object, e As EventArgs) Handles cmd_consultar_factura.Click
+        Factura_consultar.ShowDialog()
+    End Sub
+
+    Private Sub cmd_registrar_remito_Click(sender As Object, e As EventArgs) Handles cmd_registrar_remito.Click
+        Remito_registrar.ShowDialog()
+    End Sub
+
+    Private Sub cmd_consultar_remito_Click(sender As Object, e As EventArgs) Handles cmd_consultar_remito.Click
+        Remito_consultar.ShowDialog()
+    End Sub
+
+
+    Private Sub cmd_reportes_Click(sender As Object, e As EventArgs) Handles cmd_reportes.Click
+        Reporte.ShowDialog()
+    End Sub
+
+
 End Class

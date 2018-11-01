@@ -30,7 +30,7 @@
         Dim tabla As New DataTable
         tabla = bd.leo_tabla("SELECT * FROM Usuarios WHERE usuario = '" & user & "' AND contraseña = '" & passwd & "'")
         If tabla.Rows.Count = 0 Then
-            Return "Usuario no encontrado."
+            Return "Datos incorrectos"
         End If
         Return "Usuario encontrado."
 
